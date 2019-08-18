@@ -1,0 +1,18 @@
+resolving
+loading
+wrapping
+evaluating
+caching
+
+
+Slow IO operations are handled through events or callbacks. Node's event loop 
+comes from the idea that the largest waste in computer programmig comes
+from waiting for the I/O operations to a complete.
+
+Event loop
+It is the entity that handles external events and convert them into callback events.
+
+A function should always be either sync or async.(This does not make async
+This does not make much of the sense to me when I read it however 
+check the nextTick.js
+)
