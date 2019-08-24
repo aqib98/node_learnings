@@ -2,7 +2,7 @@ const fs = require('fs');
 
 function fileSize(fileName,cb){
     if(typeof fileName !== 'string'){
-        return cb(new TypeError('argument should be a string'));
+        return process.nextTick(cb,new TypeError('argument should be a string'));
     };
 
     fs.stat(fileName,(err, stats)=>{

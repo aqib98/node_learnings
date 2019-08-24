@@ -16,3 +16,8 @@ A function should always be either sync or async.(This does not make async
 This does not make much of the sense to me when I read it however 
 check the nextTick.js
 )
+
+Emitter objects emits named events that caouse listeners to be called.
+Emitter objects emits names evnts and registers event listeners
+Emiter objects gets instantiated through EventEmitter based classes.
+
