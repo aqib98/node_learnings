@@ -8,3 +8,4 @@ exports.content.push(111)
 exports.content.push(module)
 
 console.log('hiii')
+console.trace();
